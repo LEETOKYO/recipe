@@ -15,8 +15,8 @@
 		0A5D018929DA5E1E0009B394 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D018829DA5E1E0009B394 /* RecipeModel.swift */; };
 		0A5D018B29DA605F0009B394 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D018A29DA605F0009B394 /* Recipe.swift */; };
 		0A5D018F29DA617B0009B394 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D018E29DA617B0009B394 /* DataService.swift */; };
-		0A5D019129DA737E0009B394 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D019029DA737E0009B394 /* recipes.json */; };
 		0A5D019329DA77300009B394 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D019229DA77300009B394 /* RecipeDetailView.swift */; };
+		0AA4539D29F1F9FE00A398FB /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA4539C29F1F9FE00A398FB /* recipes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		0A5D018829DA5E1E0009B394 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		0A5D018A29DA605F0009B394 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		0A5D018E29DA617B0009B394 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		0A5D019029DA737E0009B394 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		0A5D019229DA77300009B394 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		0AA4539C29F1F9FE00A398FB /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 		0A5D018D29DA614F0009B394 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				0A5D019029DA737E0009B394 /* recipes.json */,
+				0AA4539C29F1F9FE00A398FB /* recipes.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -187,8 +187,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A5D017B29DA5B440009B394 /* Preview Assets.xcassets in Resources */,
+				0AA4539D29F1F9FE00A398FB /* recipes.json in Resources */,
 				0A5D017729DA5B440009B394 /* Assets.xcassets in Resources */,
-				0A5D019129DA737E0009B394 /* recipes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
