@@ -17,6 +17,7 @@
 		0A5D018F29DA617B0009B394 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D018E29DA617B0009B394 /* DataService.swift */; };
 		0A5D019329DA77300009B394 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5D019229DA77300009B394 /* RecipeDetailView.swift */; };
 		0AA4539D29F1F9FE00A398FB /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AA4539C29F1F9FE00A398FB /* recipes.json */; };
+		0AA7759229F34E2400C24307 /* RecipeFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7759129F34E2400C24307 /* RecipeFeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0A5D018E29DA617B0009B394 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		0A5D019229DA77300009B394 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		0AA4539C29F1F9FE00A398FB /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		0AA7759129F34E2400C24307 /* RecipeFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				0A5D017429DA5B440009B394 /* RecipeListView.swift */,
+				0AA7759129F34E2400C24307 /* RecipeFeatureView.swift */,
 				0A25D26529ED271000BC7524 /* RecipeTabView.swift */,
 				0A5D019229DA77300009B394 /* RecipeDetailView.swift */,
 			);
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A5D017529DA5B440009B394 /* RecipeListView.swift in Sources */,
+				0AA7759229F34E2400C24307 /* RecipeFeatureView.swift in Sources */,
 				0A5D019329DA77300009B394 /* RecipeDetailView.swift in Sources */,
 				0A5D017329DA5B440009B394 /* __3_day28_practice1App.swift in Sources */,
 				0A5D018929DA5E1E0009B394 /* RecipeModel.swift in Sources */,
